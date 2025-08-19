@@ -7,3 +7,33 @@ which is where Nextcloud forked from.
 OwnCloud was great.  However, even though the setup was not too difficult,
 I found an easier solution with Nextcloud.
 
+So what made it easier for me?
+Snap!
+
+Snap automated a lot of details.
+
+
+Update as usual:
+
+sudo apt update
+
+Install snap
+
+sudo apt install snapd
+sudo snap install core
+sudo snap refresh core
+
+Install nextcloud:
+
+sudo snap install nextcloud
+
+login:
+http://localhost:port#
+
+
+Of course it isn't completely that simple. There are other more difficult tasks.
+I wanted to add a USB terabye drive. In a different tutorial I will give steps.
+
+
+
+
